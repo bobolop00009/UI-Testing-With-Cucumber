@@ -3,7 +3,7 @@ Feature: Pelanggan kasirAja
     Scenario Outline: As a user, I can see error alert field <field>
 
         Given I am on the login page
-        When I login with "tokop@edi.com" and "larismanis"
+        When I login with "samsoe@gmail.com" and "123456"
         And I click menu pelanggan
         And I click button tambah
         And I <scenario> field
